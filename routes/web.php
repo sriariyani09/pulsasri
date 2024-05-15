@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\ProdukController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +17,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',function(){
+    return view('welcome',[
+        "title"=>"Dashboard"
+    ]);
 });
+Route::resource('pelanggan',PelangganController::class);
+Route::resource('produk',ProdukController::class);
+Route::resource('user',UserController::class)->except('destroy','create','show','update','edit');
+
+Route::get('login',[LoginController::class,'loginView'])->name('login');
+Route::post('login',[LoginController::class,'authenticate']);
+Route::post('logout',[LoginController::class,'logout'])->middleware('auth');
