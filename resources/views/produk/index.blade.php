@@ -31,6 +31,7 @@
                         <th>No</th>
                         <th>Nama</th>
                         <th>Description</th>
+                        <th>Stock</th>
                         <th>Harga</th>
                         <th>Aksi</th>
                     </tr>
@@ -42,6 +43,7 @@
                         <td>{{ $loop->iteration }}</td>
                         <td>{{ $dt->nama }}</td>
                         <td>{{ $dt->description }}</td>
+                        <td>{{ $dt->stock }}</td>
                         <td>@money($dt->harga)</td>
                         <td>
                             <div class="btn-group">

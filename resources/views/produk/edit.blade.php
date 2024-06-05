@@ -37,7 +37,12 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="harga">Harga</label>
+                    <label for="stock">Stock Produk</label>
+                    <input type="text" class="form-control" id="stock" name="stock" placeholder=""
+                        value="{{$produk->stock}}">
+
+                <div class="form-group">
+                    <label for="harga">harga</label>
                     <input type="number" class="form-control" id="harga" name="harga" value="{{$produk->harga}}">
                 </div>
                 

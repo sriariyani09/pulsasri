@@ -35,6 +35,12 @@
                     <td>{{ $data[0]->description}}</td>
                 </tr>
                 <tr>
+                    <th>Stock</th>
+                    <td>:</td>
+                   
+                    <td>{{ $data[0]->stock}}</td>
+                </tr>
+                <tr>
                     <th>Harga</th>
                     <td>:</td>
                     <td>@money($data[0]->harga)</td>

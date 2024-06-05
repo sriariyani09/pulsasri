@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Pelanggan extends Model
 {
     use HasFactory;
-
     protected $fillable=['nama','hp'];
 
     public function transaksi():HasMany

@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->string('description')->nullable();
+            $table->string('stock')->nullable();
             $table->double('harga');
             $table->timestamps();           
         });              

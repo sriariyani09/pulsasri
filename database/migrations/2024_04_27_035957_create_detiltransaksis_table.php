@@ -16,7 +16,7 @@ return new class extends Migration
             $table->bigInteger('transaksi_id')->unsigned();
             $table->bigInteger('produk_id')->unsigned();
             $table->integer('qty');
-            $table->double('price');
+            $table->double('harga');
             $table->timestamps();
         });
 

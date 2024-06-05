@@ -43,7 +43,7 @@
                         <span class="dropdown-item dropdown-header">User Menu</span>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">
-                            <i class="fas fa-user mr-2"></i>
+                            <i class="fas fa-user mr-2">   Sri Ariyani</i>
                             <span class="float-right text-muted text-sm"></span>
                         </a>
 
@@ -84,7 +84,7 @@
                         <img src="{{ asset('dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block"> </a>
+                        <a href="#" class="d-block">Sri Ariyani</a>
                     </div>
                 </div>
 
@@ -147,7 +147,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link {{ ($title==='Penjualan') ? 'active':'' }}">
+                            <a href="penjualan" class="nav-link {{ ($title==='Penjualan') ? 'active':'' }}">
                                 <i class="nav-icon fas fa-cash-register"></i>
                                 <p>
                                     Penjualan
@@ -156,13 +156,14 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
+                            <a href="{{ route('laporan.index')}}" class="nav-link {{ ($title==='Laporan')?'active':''}}">
+                                <i class="nav-icon fas fa-file-pdf"></i>
                                 <p>
                                     Laporan
-                                    <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
+                        </li>
+
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="pages/tables/simple.html" class="nav-link">
