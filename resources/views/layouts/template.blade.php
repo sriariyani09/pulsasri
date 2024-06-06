@@ -156,7 +156,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{ route('laporan.index')}}" class="nav-link {{ ($title==='Laporan')?'active':''}}">
+                            <a href="{{ route('laporan.blade')}}" class="nav-link {{ ($title==='Laporan')?'active':''}}">
                                 <i class="nav-icon fas fa-file-pdf"></i>
                                 <p>
                                     Laporan

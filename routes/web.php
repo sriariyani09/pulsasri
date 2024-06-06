@@ -48,5 +48,5 @@ Route::get('transaksi',function(){
     })->middleware('auth');
 
     Route::get('cetakReceipt',[CetakController::class,'receipt'])->name('cetakReceipt')->middleware('auth');
-    Route::get('laporan', [LaporanController::class, 'index'])->name('laporan.index');
+    Route::get('laporan', [LaporanController::class, 'blade'])->name('laporan.blade');
     

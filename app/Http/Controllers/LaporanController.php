@@ -7,7 +7,7 @@ use App\Models\Transaksi;
 
 class LaporanController extends Controller
 {
-    public function index(Request $request)
+    public function blade(Request $request)
     {
         $query = Transaksi::count();
         if ($request->filled('q')) {
@@ -26,9 +26,9 @@ class LaporanController extends Controller
         $title = "Laporan Penjualan";
         
         if ($request->page == 'laporan') {
-            return view('laporan.index', compact('transaksi', 'totalpenjualan', 'title'));
+            return view('laporan.blade', compact('transaksi', 'totalpenjualan', 'title'));
         }
 
-        return view('laporan.index', compact('transaksi', 'totalpenjualan', 'title'));
+        return view('laporan.laporan', compact('transaksi', 'totalpenjualan', 'title'));
     }
 }
