@@ -7,7 +7,7 @@
 
     <!-- =========================================================== -->
     <h1 class="h3 mb-1">
-        <strong>Layanan</strong> Tercatat
+        <strong>Produk</strong> Tercatat
     </h1>
     <div class="row">
         <div class="col-md-3 col-sm-6 col-12">
@@ -15,7 +15,7 @@
                 <span class="info-box-icon bg-info"><i class="far fa-envelope"></i></span>
 
                 <div class="info-box-content">
-                    <span class="info-box-text">Hardware</span>
+                    <span class="info-box-text">Pulsa</span>
                     <span class="info-box-number">None</span>
                 </div>
                 <!-- /.info-box-content -->
@@ -28,7 +28,7 @@
                 <span class="info-box-icon bg-success"><i class="far fa-flag"></i></span>
 
                 <div class="info-box-content">
-                    <span class="info-box-text">Software</span>
+                    <span class="info-box-text">Jumlah</span>
                     <span class="info-box-number">Small</span>
                 </div>
                 <!-- /.info-box-content -->
@@ -40,8 +40,8 @@
             <div class="info-box shadow">
                 <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
 
-                <div class="info-box-content">
-                    <span class="info-box-text">Jasa</span>
+                <div class="info-box-content"> 
+                    <span class="info-box-text">Saldo Pulsa</span>
                     <span class="info-box-number">Regular</span>
                 </div>
                 <!-- /.info-box-content -->
@@ -54,7 +54,7 @@
                 <span class="info-box-icon bg-danger"><i class="far fa-star"></i></span>
 
                 <div class="info-box-content">
-                    <span class="info-box-text">Barang</span>
+                    <span class="info-box-text">Rata-Rata</span>
                     <span class="info-box-number">Large</span>
                 </div>
                 <!-- /.info-box-content -->
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                         <h1 class="mt-1 mb-3">
-                            Rp
+                            Rp. 25.000
                         </h1>
                         <div class="mb-0">
                             <span class="text">
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                         <h1 class="mt-1 mb-3">
-                            Rp
+                            Rp. 500.000
                         </h1>
                         <div class="mb-0">
                             <span class="text">
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                         <h1 class="mt-1 mb-3">
-                            coba
+                            Rp.5.000.000
                         </h1>
                         <div class="mb-0">
                             <span class="text">
@@ -181,7 +181,7 @@
                             </div>
                         </div>
                         <h1 class="mt-1 mb-3">
-                            Rp
+                            Rp. 200.000
                         </h1>
                         <div class="mb-0">
                             <span class="text">

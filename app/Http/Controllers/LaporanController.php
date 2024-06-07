@@ -19,6 +19,9 @@ class LaporanController extends Controller
         if ($request->filled('tanggal_selesai')) {
             $query = $query->where('created_at', '<=', $request->tanggal_selesai);
         }
+        
+        
+        
 
     
         $transaksi = Transaksi::All();

@@ -20,7 +20,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <h1 class="h1">Aplikasi<b>POS</b></h1>
+      <h1 class="h1">Aplikasi<b>Pulsa</b></h1>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Please Login</p>
